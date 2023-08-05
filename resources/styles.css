@@ -1,0 +1,115 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+   
+}
+
+/*header*/
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px;
+    border-color: seashell;
+    position: fixed;
+}
+
+header .banner {
+    display: inline-flex;
+    font-size: 50px;
+}
+
+header .links {
+    display: inline-flex;
+    justify-content: right;
+    
+
+}
+
+ul li {
+    display: inline-flex;
+    text-decoration: underline;
+}
+
+    /* landing screen */
+
+.Mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../resources/images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    
+}
+
+.missiontext {
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+    /* 2nd part */
+
+.part2 {
+    width: 1000px;
+}
+
+.totm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    
+}
+
+.totm h2 {
+    display: flex;
+    text-align: center;
+    
+}
+
+.steeping h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.pictures {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 1000px;
+    height: auto;
+    
+
+
+}
+
+.berry {
+    height: 200px;
+    width: 300px;
+}
+
+.rum {
+    height: 200px;
+    width: 300px;
+}
+
+.donuts {
+    height: 200px;
+    width: 300px;
+}
+
+.myrtle {
+    height: 200px;
+    width: 300px;
+}
+
+.bedford {
+    height: 200px;
+    width: 300px;
+}
