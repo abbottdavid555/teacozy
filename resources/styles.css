@@ -1,5 +1,5 @@
 
-*{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -10,21 +10,19 @@
 /*header*/
 
 header {
-    height: auto;
-    width: 1200px;
-    border-bottom: 1px;
-    border-color: seashell;
+    display: flex;
+    justify-content: space-between;
     position: fixed;
-    display: block;
 }
 
 header .banner {
-    display: inline-block;
+    display: inline-flex;
     font-size: 50px;
+    font-family: serif;
 }
 
 header .links {
-    display:inline-block;
+    display: inline-flex;
     float: right;
      }
 
@@ -40,14 +38,15 @@ ul li {
     justify-content: center;
     align-items: center;
     background-image: url(../resources/images/img-mission-background.jpg);
-    height: 700px;
-    width: 1200px;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px; 
 }
 
 .missiontext {
     text-align: center;
     width: 100%;
+    background-color: black;
     
 }
 
@@ -55,60 +54,50 @@ ul li {
     /* 2nd part */
 
 .part2 {
+    display: block;
+    margin: auto;
     width: 1000px;
+    
+    
 }
 
 .totm {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1000px;
-    
-}
-
-.totm h2 {
-    display: flex;
+    display: block;
     text-align: center;
-    
 }
 
 .steeping h4 {
+    display: block;
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    height: auto;
+}
+.pictures figcaption {
+    text-align: center;
+}
+
+.picrow1 {
     display: flex;
     justify-content: center;
 }
 
-.pictures {
-    display: inline-flex;
-    flex-wrap: wrap;
+.picrow1 img {
+    height: 200px;
+    width: 300px;
+}
+
+.picrow2 {
+    display: flex;
     justify-content: center;
-    align-content: center;
-    width: 1000px;
-    height: auto;
-    
-
-
 }
 
-.berry {
+.picrow2 img {
     height: 200px;
     width: 300px;
-}
-
-.rum {
-    height: 200px;
-    width: 300px;
-}
-
-.donuts {
-    height: 200px;
-    width: 300px;
-}
-
-.myrtle {
-    height: 200px;
-    width: 300px;
-}
-
-.bedford {
-    height: 200px;
-    width: 300px;
-}
+    }
