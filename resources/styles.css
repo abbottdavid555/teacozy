@@ -1,8 +1,8 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
 
 
 body {
@@ -78,11 +78,14 @@ ul li {
 .totm {
     display: block;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .steeping h4 {
     display: block;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .pictures {
@@ -94,11 +97,13 @@ ul li {
 }
 .pictures figcaption {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .picrow1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .picrow1 img {
@@ -108,7 +113,7 @@ ul li {
 
 .picrow2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .picrow2 img {
@@ -126,6 +131,7 @@ ul li {
     background-repeat: no-repeat;
     height: 500px;
     align-content: center;
+    margin-top: 75px;
 }
 
 .part3 h1 {
@@ -134,13 +140,11 @@ ul li {
 }
 
 .boxes {
-    display: inline-flex;
-    justify-content: space-around;
-    
+    display: flex;
+    justify-content: center;
 }
 .part3 .box1 {
     text-align: center;
-    margin-left: 40px;
     width: 300px;
     background-color: black;
 }
@@ -165,6 +169,19 @@ ul li {
     align-items: center;
     text-align: center;
     height: 200px;
+}
+
+.part4 .contact {
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.part4 .email {
+    margin-bottom: 15px;
+}
+
+.part4 .phone {
+    margin-bottom: 15px;
 }
 
 footer {
