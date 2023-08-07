@@ -111,7 +111,7 @@ ul li {
 .part3 {
     display: flex;
     flex-direction: column;
-    background-image: url(../resources/images/img-locations-background.jpg);
+    background-image: url(./resources/images/img-locations-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 500px;
